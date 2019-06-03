@@ -21,7 +21,7 @@ function tracker(){
     }
 
     else if((sideA+sideB)<=sideC || (sideA+sideB)<=sideC || (sideB+sideC)<=sideA){
-    result.innerHTML=('<h1>These values do not make a triangle</h1> <br> <img scr="images/tenor.gif" alt="emoji">');
+    result.innerHTML=('These values do not make a triangle');
     alert("values do not make a triangle")
 }
     else if(sideC + sideB > sideA || sideA + sideC > sideB || sideA + sideB > sideC){

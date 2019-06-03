@@ -8,9 +8,14 @@ body{
 }
 
 .tri{
-    color: maroon;
+    color: red;
 }
 
 .ent{
     color: crimson;
+    background-size: 100%;
+}
+
+.learn{
+    color: maroon;;
 }

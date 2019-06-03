@@ -14,7 +14,7 @@ By Jenniffer.
   No sides are equal	       |[5, 4, 3]	  |  Scalene
   Sum of 2 sides <= third value|[5, 4, 10]	  |  No triangle
   Numbers < 0                  | [-3, -3, -3] |    No triangle
--------------------------------|--------------|---------------------------
+
 
 ## Technologies used.
 * HTML 
@@ -25,7 +25,12 @@ By Jenniffer.
 Incase of any questions, reach me at:
 * Jenn7nm@gmail.com
 
-## LICENCING.
+## LICENCING.\
+MIT License
+
+Copyright (c) [2019] [Jenniffer.]
+
+Permission is hereby granted, to any person obtaining a copy of this application to deal in the Software without restriction and  without limitation of the rights to use, copy, modify, merge, publish, distribute, or sell copies of this application.
 
 
 

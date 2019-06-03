@@ -12,8 +12,8 @@ By Jenniffer.
   All sides are equal	       |[5, 5, 5]     | Equilateral
   Two sides are equal	       | [5, 5, 6]    |   Isosceles	
   No sides are equal	       |[5, 4, 3]	  |  Scalene
-  Sum of 2 sides <= third value|[5, 4, 10]	  |  No triangle
-  Numbers < 0                  | [-3, -3, -3] |    No triangle
+  Sum of 2 sides <= third value|[9, 4, 3]	  |  No triangle
+  Numbers <= 0                 | [-3, -3, -3] |    No triangle
 
 
 ## Technologies used.

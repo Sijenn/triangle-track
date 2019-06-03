@@ -1,5 +1,6 @@
 body{
-    background-image: url("../images/triangles.png");
+   color: black;
+   background-color: black;
 
 }
 .center{
@@ -18,4 +19,10 @@ body{
 
 .learn{
     color: maroon;;
+}
+.box{
+    border: 2px solid lightgrey;
+    padding: 2px;
+    margin: 10px;
+      
 }

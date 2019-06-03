@@ -1,6 +1,6 @@
 ## TRIANGLE TRACKER PROJECT
 A webpage that determines three types of triangles by taking values of the three sides of the triangle from the user.
-By Jenniffer.
+* By Jenniffer.
 
 # Description
  This webpage has three input boxes where the user fills the three sides of a triangle and then the webpages will determine what type of triangle it is. The webpage also displays the triangles in picture form so that the user can clearly understand the triangles and also it has links where the user can access and learn more about triangles.

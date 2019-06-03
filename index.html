@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link img src="images/triangles.png" alt="Triangles">
-        <title>Triangle-tracker</title>
-    </head>
 
-    <body>
-        <div class="container">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link img src="images/triangles.png" alt="Triangles">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <title>Triangle-tracker</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
             <div class="row">
 
                 <h1>Triangle tracker</h1>
-             
+
             </div>
             <p>Side A</p>
             <input type="number" id="first">
@@ -22,11 +26,15 @@
 
             <p>Side C</p>
             <input type="number" id="third">
-            <button type="button" name="button" onclick="tracker()">Find Out</button>
 
-            <button type="button" name="button" onclick='refresh()'>reset</button><br>
+
+            <button class="btn-success btn-xs" type="button" name="button" onclick="tracker()">Find Out</button>
+            <button class="btn-warning btn-xs" type="button" name="button" onclick='refresh()'>reset</button><br>
             <p id="response"></p>
-            <script  src="js/scripts.js"></script>
+            <script src="js/scripts.js"></script>
         </div>
-    </body>
+    </div>
+
+</body>
+
 </html>

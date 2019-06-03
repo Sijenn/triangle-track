@@ -26,12 +26,11 @@ function tracker(){
 }
     else if(sideC + sideB > sideA || sideA + sideC > sideB || sideA + sideB > sideC){
         result.innerHTML=(' <h2>Scalene triangle</h2> <br> <img src="images/scaleneTriangle.gif" alt="equilateral">');
-        ("scalene triangle")
+        alert("scalene triangle")
     }
     else
     {
-        result.innerHTML=(' <h2>Thank you try again/h2> <br> <img src="images/equilateralTriangle.gif" alt="equilateral">');
-
+        result.innerHTML=('<h2>Thank you try again/h2>');
     }
 }
 function refresh(){

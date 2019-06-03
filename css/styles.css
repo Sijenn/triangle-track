@@ -1,5 +1,6 @@
 body{
-    background-image: url("../images/triangles.png");
+   color: black;
+   background-color: black;
 
 }
 .center{
@@ -20,7 +21,7 @@ body{
     color: maroon;;
 }
 .box{
-    border: 2px solid burlywood;
+    border: 2px solid lightgrey;
     padding: 2px;
     margin: 10px;
       

@@ -25,7 +25,7 @@ By Jenniffer.
 Incase of any questions, reach me at:
 * Jenn7nm@gmail.com
 
-## LICENCING.\
+## LICENCING.
 MIT License
 
 Copyright (c) [2019] [Jenniffer.]

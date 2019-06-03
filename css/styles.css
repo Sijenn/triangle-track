@@ -1,3 +1,16 @@
-.font{
-    background-image: url(triangles.png);
+body{
+    background-image: url("../images/triangles.png");
+
+}
+.center{
+    text-align: center;
+    padding-left: 50px;
+}
+
+.tri{
+    color: maroon;
+}
+
+.ent{
+    color: crimson;
 }

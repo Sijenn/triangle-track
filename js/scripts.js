@@ -9,17 +9,24 @@ function tracker(){
     if (sideA<=0 && sideB<=0 && sideC<=0)
     {
         result.innerHTML=(' <h2>Value Cannot be less than or equals to zero </h2> <br> <img src="images/tenor.gif" alt="equilateral">');
+        alert("values cannot make a triangle")
 }
     else if
-    (sideA===sideB && sideA===sideC && sideB===sideC ){
+    (sideA===sideB && sideB===sideC ){
     result.innerHTML=(' <h2>Equilateral triangle</h2> <br> <img src="images/equilateralTriangle.gif" alt="equilateral">');
+    alert("Equilateral triangle")
     }else if(sideA===sideB ||sideB===sideC || sideA===sideC){
         result.innerHTML=(' <h2>Isoseles triangle</h2> <br> <img src="images/isosceles.jpg" alt="equilateral">');
+        alert("Isosceles triangle")
     }
+
+    else if((sideA+sideB)<=sideC || (sideA+sideB)<=sideC || (sideB+sideC)<=sideA){
+    result.innerHTML="These values do not make a triangle";
+    alert("values do not make a triangle")
+}
     else if(sideC + sideB > sideA || sideA + sideC > sideB || sideA + sideB > sideC){
         result.innerHTML=(' <h2>Scalene triangle</h2> <br> <img src="images/scaleneTriangle.gif" alt="equilateral">');
-    }else if((sideA+sideB)<=sideC || (sideA+sideB)<=sideC || (sideB+sideC)<=sideA){
-        result.innerHTML="These values do not make a triangle";
+        alert("scalene triangle")
     }
     else
     {

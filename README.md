@@ -1,9 +1,9 @@
 ## TRIANGLE TRACKER PROJECT
-A webpage that determines three types of triangles by taking values of the three sides of the triangle from the user.
+Its an application that determines three types of triangles by taking values of the three sides of the triangle from the user.
 * By Jenniffer.
 
 # Description
- This webpage has three input boxes where the user fills the three sides of a triangle and then the webpages will determine what type of triangle it is. The webpage also displays the triangles in picture form so that the user can clearly understand the triangles and also it has links where the user can access and learn more about triangles.
+ This webpage has three input boxes where the user fills the three sides of a triangle and then the webpage will determine what type of triangle it is. The application also displays the triangles in picture form so that the user can clearly understand the triangles and also it has links where the user can access and learn more about triangles.
 
  ## The specifications.
 
@@ -30,7 +30,7 @@ MIT License
 
 Copyright (c) [2019] [Jenniffer.]
 
-Permission is hereby granted, to any person obtaining a copy of this application to deal in the Software without restriction and  without limitation of the rights to use, copy, modify, merge, publish, distribute, or sell copies of this application.
+Permission is hereby granted, to any person obtaining a copy of this application without restriction and limitation of the rights to use, copy, modify, merge, publish, distribute, or sell copies of this application.
 
 
 

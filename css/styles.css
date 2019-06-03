@@ -19,3 +19,9 @@ body{
 .learn{
     color: maroon;;
 }
+.box{
+    border: 2px solid burlywood;
+    padding: 2px;
+    margin: 10px;
+      
+}

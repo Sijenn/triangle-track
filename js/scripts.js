@@ -11,7 +11,7 @@ function tracker(){
     }
      else if (sideA<=0 && sideB<=0 && sideC<=0)
     {
-        result.innerHTML=('<h2>Value Cannot be less than or equals to zero </h2> <br> <img src="images/tenor.gif" alt="emoji">');
+        result.innerHTML=('<h2>Value Cannot be less than or equals to zero</h2> <br> <img src="images/tenor.gif" alt="emoji">');
         alert("values cannot make a triangle")
 
     }else if
@@ -21,7 +21,7 @@ function tracker(){
 
 
     }else if((sideA+sideB)<=sideC || (sideA+sideC)<=sideB || (sideB+sideC)<=sideA){
-        result.innerHTML=('These values do not make a triangle');
+        result.innerHTML=('<h2>These values do not make a triangle</h2> <br> <img src="images/tenor.gif" alt="emoji">');
         alert("values do not make a triangle")
 
     }else if(sideA===sideB ||sideB===sideC || sideA===sideC){

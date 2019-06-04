@@ -16,7 +16,7 @@ function tracker(){
 
     }else if
     (sideA===sideB && sideB===sideC ){
-    result.innerHTML=('<h2>Equilateral triangle</h2> <br> <img src="images/equilateralTriangle.gif" alt="equilateral">');
+    result.innerHTML=('<h2>Equilateral triangle</h2> <br> <img src="images/open.jpeg" alt="love">');
     alert("Equilateral triangle")
 
 
@@ -25,12 +25,12 @@ function tracker(){
         alert("values do not make a triangle")
 
     }else if(sideA===sideB ||sideB===sideC || sideA===sideC){
-        result.innerHTML=(' <h2>Isoseles triangle</h2> <br> <img src="images/isosceles.jpg" alt="equilateral">');
+        result.innerHTML=(' <h2>Isoseles triangle</h2> <br> <img src="images/kiss.jpeg" alt="kiss">');
         alert("Isosceles triangle")
 
 
     }else if(sideC + sideB > sideA || sideA + sideC > sideB || sideA + sideB > sideC){
-        result.innerHTML=(' <h2>Scalene triangle</h2> <br> <img src="images/scaleneTriangle.gif" alt="equilateral">');
+        result.innerHTML=('<h2>Scalene triangle</h2> <br> <img src="images/kiss.jpeg" alt="kiss">');
         alert("scalene triangle")
     }
     else

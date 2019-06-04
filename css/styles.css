@@ -30,7 +30,11 @@ h2 {
     color: blue;
 }
 h1{
-    font-style: ; 
+    font-style: italic; 
 }
 
-#4cb8c4
+body{
+    background-image: url("images/background.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

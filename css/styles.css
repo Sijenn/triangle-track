@@ -1,6 +1,6 @@
 body{
-   color: black;
-   background-color: black;
+   
+   background-color: #6DD5FA;
 
 }
 .center{
@@ -25,4 +25,7 @@ body{
     padding: 2px;
     margin: 10px;
       
+}
+h2 {
+    color: blue;
 }

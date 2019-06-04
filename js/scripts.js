@@ -6,16 +6,17 @@ function tracker(){
    
     var result=document.querySelector('#response')
     if ( first <=0 || second <=0 || third <= 0) {
+        result.innerHTML=('<h2>You have entered wrong values</h2> </h2> <br> <img src="images/tenor.gif" alt="emoji">');
         alert("you have entered wrong values")
     }
      else if (sideA<=0 && sideB<=0 && sideC<=0)
     {
-        result.innerHTML=(' <h2>Value Cannot be less than or equals to zero </h2> <br> <img src="images/tenor.gif" alt="emoji">');
+        result.innerHTML=('<h2>Value Cannot be less than or equals to zero </h2> <br> <img src="images/tenor.gif" alt="emoji">');
         alert("values cannot make a triangle")
 
     }else if
     (sideA===sideB && sideB===sideC ){
-    result.innerHTML=(' <h2>Equilateral triangle</h2> <br> <img src="images/equilateralTriangle.gif" alt="equilateral">');
+    result.innerHTML=('<h2>Equilateral triangle</h2> <br> <img src="images/equilateralTriangle.gif" alt="equilateral">');
     alert("Equilateral triangle")
 
 
